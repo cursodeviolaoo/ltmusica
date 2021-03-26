@@ -1,0 +1,42 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 800;
+}
+
+p, li {
+  font-size: 21px;
+  color: #333333;
+}
+
+small {
+  color: #333333;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.btn-primary {
+  font-size: 23px;
+  background-color: #ff7214;
+  color: white;
+  border-radius: 50px;
+  padding: 30px 60px;
+  text-transform: uppercase;
+  font-weight: 800;
+  box-shadow: 0 0 25px rgba(57, 255, 20, 0.5);
+  line-height: 1;
+  border: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+  background-color: #ff7214;
+}
+
+/*# sourceMappingURL=promo.css.map */
