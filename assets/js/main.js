@@ -3,7 +3,7 @@
     var urlparams = new URL(url_string);
     var src = urlparams.searchParams.get("src");
     var split = 12;
-    var checkout = 'https://ev.braip.com/checkout/pla5kkgg/che2okzw?src=KD-' + src + '&split=' + split;
+    var checkout = 'https://ev.braip.com/campanhas/cpa/camogj29?src=KD-GA-' + src + '&split=' + split;
     $(".link-pv").attr('href', checkout).attr('target', '_blank');
 
     CookieTimer.start('countdown', '', 5 * 60);
